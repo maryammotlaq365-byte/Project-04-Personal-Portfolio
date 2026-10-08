@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maryam Mutlaq | Cyber Security Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#about" class="logo">Maryam Mutlaq</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" type="button" aria-label="Switch theme">🌙 Theme</button>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <img src="assets/photo.jpg" alt="Portrait of Maryam Mutlaq" class="photo">
+      <div class="about-text">
+        <h1>Hi, I'm Maryam Mutlaq</h1>
+        <p>Fresh cyber security graduate with hands-on experience in AI projects
+           (Machine Learning). Skilled in network security, red team operations,
+           HTML development, and Internet of Things (IoT). Passionate about
+           ethical hacking and continuously developing technical skills to
+           protect systems and networks.</p>
+        <p><strong>Education:</strong> Bachelor of Cyber Security, Al al-Bayt
+           University (Oct 2021 – Jan 2026)</p>
+        <p><strong>Languages:</strong> Arabic (Native), English (Intermediate)</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">Cybersecurity</div>
+        <div class="card">Penetration Testing</div>
+        <div class="card">Red Team Operations</div>
+        <div class="card">Network Security</div>
+        <div class="card">Machine Learning</div>
+        <div class="card">Python &amp; Flask</div>
+        <div class="card">HTML / CSS / JavaScript</div>
+        <div class="card">IoT</div>
+        <div class="card">Time Management</div>
+        <div class="card">Communication</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project 00 — HTML Fundamentals</h3>
+          <p>A project focused on the basic structure of web pages using HTML5.</p>
+          <a href="https://github.com/maryammotlaq365-byte" target="_blank" rel="noopener">View</a>
+        </article>
+
+        <article class="card">
+          <h3>Project 01 — HTML Fundamentals</h3>
+          <p>A project focused on creating structured web pages using HTML
+             elements, tables, lists, and forms.</p>
+          <a href="https://github.com/maryammotlaq365-byte/discovery-web-piscine" target="_blank" rel="noopener">View</a>
+        </article>
+
+        <article class="card">
+          <h3>Project 02 — CSS: Designing Modern Interfaces</h3>
+          <p>A CSS project focused on Flexbox, positioning, shapes,
+             animations, and responsive layouts.</p>
+          <a href="https://github.com/maryammotlaq365-byte/Repository-02" target="_blank" rel="noopener">View</a>
+        </article>
+
+        <article class="card">
+          <h3>Project 03 — JavaScript</h3>
+          <p>A project focused on JavaScript fundamentals and DOM
+             manipulation, including event handling and dynamic styling.</p>
+          <a href="https://github.com/maryammotlaq365-byte/Repository-03" target="_blank" rel="noopener">View</a>
+        </article>
+
+        <article class="card">
+          <h3>Graduation Project — Spam Detection System Using AI</h3>
+          <p>Spam detection system built with Machine Learning at Al al-Bayt
+             University. Backend: Python and Flask. Frontend: HTML, CSS,
+             JavaScript.</p>
+          <a href="https://github.com/maryammotlaq365-byte" target="_blank" rel="noopener">GitHub Profile</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <h2>Certificates</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Red Team Operations – Cyber Security</h3>
+          <p>Queen Rania Center, Yarmouk University</p>
+        </div>
+        <div class="card">
+          <h3>Introduction to IoT &amp; Digital Transformation</h3>
+          <p>Cisco</p>
+        </div>
+        <div class="card">
+          <h3>Employability &amp; Entrepreneurship Skills</h3>
+          <p>OZ Training and Consulting</p>
+        </div>
+        <div class="card">
+          <h3>Cyber Offense &amp; PT</h3>
+          <p>SMT Academy</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="section">
+      <h2>Hobbies</h2>
+      <ul class="hobbies">
+        <li>Learning new things and improving my skills</li>
+        <li>Exploring cybersecurity and technology</li>
+        <li>Practicing coding and trying out new ideas</li>
+        <li>Learning new tools and figuring out how they work</li>
+        <li>Improving my English and communication skills</li>
+        <li>Working on small projects and learning from my mistakes</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="contact-info">
+        📍 Irbid, Jordan<br>
+        ✉️ <a href="mailto:maryammotlaq365@gmail.com">maryammotlaq365@gmail.com</a><br>
+        💻 <a href="https://github.com/maryammotlaq365-byte" target="_blank" rel="noopener">GitHub</a><br>
+        🔗 <a href="www.linkedin.com/in/
+maryam-mutlaq-96b87a2b5" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Maryam Mutlaq. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
